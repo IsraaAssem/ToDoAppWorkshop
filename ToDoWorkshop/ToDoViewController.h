@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ToDoViewController : UIViewController
+@interface ToDoViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end
 

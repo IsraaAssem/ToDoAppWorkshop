@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FB04BFE2BCFE92E00D497E3 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB04BFD2BCFE92E00D497E3 /* TabBarController.m */; };
+		9FB04C012BCFEAEE00D497E3 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB04C002BCFEAEE00D497E3 /* DetailsViewController.m */; };
 		9FC554052BCFAC500015E45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC554042BCFAC500015E45D /* AppDelegate.m */; };
 		9FC554082BCFAC500015E45D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC554072BCFAC500015E45D /* SceneDelegate.m */; };
 		9FC5540B2BCFAC500015E45D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5540A2BCFAC500015E45D /* ViewController.m */; };
@@ -14,9 +16,17 @@
 		9FC554102BCFAC520015E45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5540F2BCFAC520015E45D /* Assets.xcassets */; };
 		9FC554132BCFAC520015E45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC554112BCFAC520015E45D /* LaunchScreen.storyboard */; };
 		9FC554162BCFAC520015E45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC554152BCFAC520015E45D /* main.m */; };
+		9FC5541E2BCFC6DC0015E45D /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5541D2BCFC6DC0015E45D /* ToDoViewController.m */; };
+		9FC554212BCFD2BA0015E45D /* DoingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC554202BCFD2BA0015E45D /* DoingViewController.m */; };
+		9FC554242BCFD2DE0015E45D /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC554232BCFD2DE0015E45D /* DoneViewController.m */; };
+		9FC554272BCFD3660015E45D /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC554262BCFD3660015E45D /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9FB04BFC2BCFE92E00D497E3 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		9FB04BFD2BCFE92E00D497E3 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		9FB04BFF2BCFEAEE00D497E3 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		9FB04C002BCFEAEE00D497E3 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		9FC554002BCFAC500015E45D /* ToDoWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC554032BCFAC500015E45D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FC554042BCFAC500015E45D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +39,14 @@
 		9FC554122BCFAC520015E45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC554142BCFAC520015E45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC554152BCFAC520015E45D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FC5541C2BCFC6DC0015E45D /* ToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		9FC5541D2BCFC6DC0015E45D /* ToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
+		9FC5541F2BCFD2BA0015E45D /* DoingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoingViewController.h; sourceTree = "<group>"; };
+		9FC554202BCFD2BA0015E45D /* DoingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoingViewController.m; sourceTree = "<group>"; };
+		9FC554222BCFD2DE0015E45D /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		9FC554232BCFD2DE0015E45D /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		9FC554252BCFD33C0015E45D /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		9FC554262BCFD3660015E45D /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +79,8 @@
 		9FC554022BCFAC500015E45D /* ToDoWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				9FC5541C2BCFC6DC0015E45D /* ToDoViewController.h */,
+				9FC5541D2BCFC6DC0015E45D /* ToDoViewController.m */,
 				9FC554032BCFAC500015E45D /* AppDelegate.h */,
 				9FC554042BCFAC500015E45D /* AppDelegate.m */,
 				9FC554062BCFAC500015E45D /* SceneDelegate.h */,
@@ -68,10 +88,20 @@
 				9FC554092BCFAC500015E45D /* ViewController.h */,
 				9FC5540A2BCFAC500015E45D /* ViewController.m */,
 				9FC5540C2BCFAC500015E45D /* Main.storyboard */,
+				9FB04BFF2BCFEAEE00D497E3 /* DetailsViewController.h */,
+				9FB04C002BCFEAEE00D497E3 /* DetailsViewController.m */,
 				9FC5540F2BCFAC520015E45D /* Assets.xcassets */,
 				9FC554112BCFAC520015E45D /* LaunchScreen.storyboard */,
 				9FC554142BCFAC520015E45D /* Info.plist */,
 				9FC554152BCFAC520015E45D /* main.m */,
+				9FC5541F2BCFD2BA0015E45D /* DoingViewController.h */,
+				9FC554202BCFD2BA0015E45D /* DoingViewController.m */,
+				9FC554222BCFD2DE0015E45D /* DoneViewController.h */,
+				9FC554232BCFD2DE0015E45D /* DoneViewController.m */,
+				9FC554252BCFD33C0015E45D /* Task.h */,
+				9FC554262BCFD3660015E45D /* Task.m */,
+				9FB04BFC2BCFE92E00D497E3 /* TabBarController.h */,
+				9FB04BFD2BCFE92E00D497E3 /* TabBarController.m */,
 			);
 			path = ToDoWorkshop;
 			sourceTree = "<group>";
@@ -147,7 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC5540B2BCFAC500015E45D /* ViewController.m in Sources */,
+				9FC554242BCFD2DE0015E45D /* DoneViewController.m in Sources */,
 				9FC554052BCFAC500015E45D /* AppDelegate.m in Sources */,
+				9FC554212BCFD2BA0015E45D /* DoingViewController.m in Sources */,
+				9FB04BFE2BCFE92E00D497E3 /* TabBarController.m in Sources */,
+				9FB04C012BCFEAEE00D497E3 /* DetailsViewController.m in Sources */,
+				9FC554272BCFD3660015E45D /* Task.m in Sources */,
+				9FC5541E2BCFC6DC0015E45D /* ToDoViewController.m in Sources */,
 				9FC554162BCFAC520015E45D /* main.m in Sources */,
 				9FC554082BCFAC500015E45D /* SceneDelegate.m in Sources */,
 			);

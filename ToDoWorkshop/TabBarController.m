@@ -6,8 +6,9 @@
 //
 
 #import "TabBarController.h"
-
+#import "DetailsViewController.h"
 @interface TabBarController ()
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *plusBtn;
 
 @end
 
@@ -15,9 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.delegate = self;
+
     // Do any additional setup after loading the view.
 }
-
+- (IBAction)goToAddScrean:(id)sender {
+    DetailsViewController * detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
+    detailVC.source=@"add";
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+        if (viewController == [tabBarController.viewControllers objectAtIndex:0]) {
+            _plusBtn.hidden=NO;
+        } else {
+            _plusBtn.hidden=YES;
+        }
+}
 /*
 #pragma mark - Navigation
 
