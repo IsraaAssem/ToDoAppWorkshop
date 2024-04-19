@@ -63,7 +63,9 @@
 
     result = prime * result + [self.name hash];
     result = prime * result + [self.priority hash];
-    // Add other properties that contribute to equality
+    result = prime * result + [self.date hash];
+    result = prime * result + [self.taskDescription hash];
+    result = prime * result + [self.state hash];
 
     return result;
 }

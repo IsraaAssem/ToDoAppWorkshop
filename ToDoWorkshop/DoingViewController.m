@@ -50,10 +50,10 @@
         UIAlertController *deleteAlert=
         [UIAlertController alertControllerWithTitle:@"Delete task!" message:@"Are you sure you want to delete this task!" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *deleteAction =[UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
-            [self.inProgressTasksArray removeObjectAtIndex:indexPath.row];  // Assuming self.tasks is your data source array
+            [self.inProgressTasksArray removeObjectAtIndex:indexPath.row];  
             [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
             
-            // Update your data source such as UserDefaults here
+       
             [self updateUserDefaults];
             [self addBackground];
         }];

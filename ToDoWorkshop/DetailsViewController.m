@@ -139,7 +139,7 @@
     }else{
         //alert
         UIAlertController *deleteAlert=
-        [UIAlertController alertControllerWithTitle:@"Edit task!" message:@"Are you sure you want to Save changes!" preferredStyle:UIAlertControllerStyleAlert];
+        [UIAlertController alertControllerWithTitle:@"Save task!" message:@"Are you sure you want to Save changes!" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *deleteAction =[UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
             
             [self updateTasksInUserDefaults:self->_state];
@@ -158,7 +158,7 @@
     if([_source isEqual:@"edit"]){
         NSLog(@"edit......\n");
         [self deleteTaskInUserDefaults:_taskToView.state];
-       // [tasksArray removeObject:_taskToView];
+      
     }
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSData *retrievedData = [defaults objectForKey:tasksType];
