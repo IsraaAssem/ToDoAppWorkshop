@@ -30,3 +30,13 @@ NSUser defaults
 Uikit
 
 MVC
+
+
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-03 at 12 37 55](https://github.com/user-attachments/assets/08587c33-9d2c-4929-87da-b158e01012bb)
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-03 at 12 38 29](https://github.com/user-attachments/assets/94b20fc8-f7e6-4e39-9ffa-1466f9fcf6e7)
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-03 at 12 40 58](https://github.com/user-attachments/assets/a5e56255-f9cb-4532-bf5d-5cf9db4c4081)
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-03 at 12 41 45](https://github.com/user-attachments/assets/cd9774a2-340d-4ca3-9f97-f99a0faa522a)
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-03 at 12 43 16](https://github.com/user-attachments/assets/7b4
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-03 at 12 44 39](https://github.com/user-attachments/assets/9190626b-07b7-4098-ba6f-00279a75989a)
+5c1b5-a209-427c-ba1c-978b65ea12f9)
